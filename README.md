@@ -7,6 +7,9 @@ git clone https://github.com/plachta11b/containers-swig.git
 cd containers-swig
 ```
 
+## Linux
+Comming soon. Use [this one](https://gist.github.com/rcoup/35e11e31d069689c9c09a70cc2fc7a0d) instead for now.
+
 ## Windows
 
 ### Build windows image
@@ -22,3 +25,8 @@ Use of --workdir instead of --outdir is recommended as later flag was not workin
 # Use swig to build wrapper
 docker run -v ${PWD}:C:\app\ --workdir C:/app/js_dir swig:swig:win-x64-latest C:\usr\src\swig\swig.exe -c++ -javascript -node -outcurrentdir C:\app\cpp_dir\app.i
 ```
+
+## SWIG
+- [Project page](http://www.swig.org/)
+- [Github page](https://github.com/swig/swig)
+- [Issue](https://github.com/swig/swig/issues/1112)
